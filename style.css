@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  height: 17px;
+  width: 20px;
+  border: none;
+  background-color: white;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: black;
+  border-radius: 20px;
+}
+
+.logo {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.input-group {
+  background: #ebebeb;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 17px;
+  max-width: 830px;
+  width: 50%;
+  margin-left: 59px;
+}
+
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  padding-right: 155px;
+  border-style: none;
+}
+
+.button-search {
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.icon-search {
+  fill: black;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  margin-left: auto;
+}
+
+.icons-link {
+  opacity: 0.24;
+}
+
+.icons-link:hover {
+  opacity: 0.7;
+}
+
+.icons-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.user {
+  margin-left: 45px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 70px;
+}
