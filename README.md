@@ -1,6 +1,6 @@
 # Youtube-concept
-Glo Academy Test Project
-Project created by: Sun 
+Glo Academy Test Project. 
+Created by: Sun 
 
 ## Используемые технологии : 
 - HTML 
